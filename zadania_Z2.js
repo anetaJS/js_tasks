@@ -198,4 +198,10 @@
 // let object = Arithmetic(7,2);
 
 // console.log(object);
-
+// =============================================
+function aryt(x, y){
+    let arytObject = {sum: x+y, sub: x-y, multi: x*y, div: x/y};
+    return arytObject;
+}
+let result = aryt(2,3);
+console.log(result);
